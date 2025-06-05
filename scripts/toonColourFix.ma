@@ -33,7 +33,7 @@ global proc fixToonColour() {
         }
     }
 
-    Then i released the color_interp on some of them wasnt set correctly, i used this mel script to fix that
+    // Then i released the color_interp on some of them wasnt set correctly, i used this mel script to fix that
 
     // quick script to set all toon materials to no interpolation
 
