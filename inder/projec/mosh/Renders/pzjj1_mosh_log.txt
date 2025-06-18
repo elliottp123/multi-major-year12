@@ -1,0 +1,555 @@
+[2025-06-15T07:25:26.996Z] Starting setup
+[2025-06-15T07:25:27.894Z] Setting up paths
+[2025-06-15T07:25:27.894Z] Project Path: C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh
+[2025-06-15T07:25:27.943Z] Got comp data
+[2025-06-15T07:25:27.982Z] Got marker times
+[2025-06-15T07:25:27.982Z] Setup completed
+[2025-06-15T07:25:27.982Z] Rendering temp
+[2025-06-15T07:25:27.983Z] Rendering to C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\rendFile.mov
+[2025-06-15T07:25:47.667Z] Rendered to C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\rendFile.mov
+[2025-06-15T07:25:47.805Z] Rendering extra temps
+[2025-06-15T07:25:47.805Z] Rendering swap temp for "gus7m", timeIn: 3.08, duration: 1.64
+[2025-06-15T07:25:49.748Z] Rendered swap temp for gus7m to C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\swapTemp-gus7m.mov
+[2025-06-15T07:25:49.803Z] Priming swap file for module gus7m
+[2025-06-15T07:25:49.803Z] Starting Priming swap file with ffgac
+[2025-06-15T07:25:52.600Z] ffgac stderr: [mov,mp4,m4a,3gp,3g2,mj2 @ 0000021f2f378940] Referenced QT chapter track not found
+
+[2025-06-15T07:25:52.642Z] ffgac stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\swapTemp-gus7m.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    creation_time   : 2025-06-15T07:25:48.000000Z
+  Duration: 00:00:01.64, start: 0.000000, bitrate: 125732 kb/s
+  Stream #0:0[0x1](eng): Video: prores (Standard) (apcn / 0x6E637061), yuv422p10le(bt709, progressive), 1920x1080, 119081 kb/s, SAR 1:1 DAR 16:9, 25 fps, 25 tbr, 25 tbn (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:48.000000Z
+        handler_name    : Apple Video Media Handler
+        vendor_id       : appl
+        encoder         : Apple ProRes 422
+        timecode        : 00:00:03:02
+  Stream #0:1[0x2](eng): Audio: pcm_s16le (sowt / 0x74776F73), 48000 Hz, stereo, s16, 1536 kb/s (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:48.000000Z
+        handler_name    : Apple Sound Media Handler
+        vendor_id       :     
+        timecode        : 00:00:03:02
+  Stream #0:2[0x3](eng): Data: none (tmcd / 0x64636D74), 0 kb/s (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:48.000000Z
+        handler_name    : Time Code Media Handler
+        timecode        : 00:00:03:02
+
+[2025-06-15T07:25:52.644Z] ffgac stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (prores (native) -> mpeg4 (native))
+
+[2025-06-15T07:25:52.644Z] ffgac stderr: Press [q] to stop, [?] for help
+
+[2025-06-15T07:25:52.706Z] ffgac stderr: Output #0, rawvideo, to 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\swapPrimedgus7m.mp4':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    encoder         : Lavf61.1.100
+
+[2025-06-15T07:25:52.706Z] ffgac stderr:   Stream #0:0(eng): Video: mpeg4, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 25 fps, 25 tbn (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:48.000000Z
+        handler_name    : Apple Video Media Handler
+        vendor_id       : appl
+        timecode        : 00:00:03:02
+        encoder         : Lavc61.3.100 mpeg4
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+
+[2025-06-15T07:25:52.950Z] ffgac stderr: [out#0/rawvideo @ 0000021f30eb24c0] video:5510KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000000%
+frame=   41 fps=0.0 q=0.0 Lsize=    5510KiB time=00:00:01.64 bitrate=27520.7kbits/s speed=5.37x    
+
+[2025-06-15T07:25:52.991Z] Priming swap file completed successfully
+[2025-06-15T07:25:52.991Z] Primed swap file to C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\swapPrimedgus7m.mp4
+[2025-06-15T07:25:52.992Z] Exporting MVs for module gus7m
+[2025-06-15T07:25:52.992Z] Starting Exporting MVs for gus7m with ffedit
+[2025-06-15T07:25:54.673Z] ffedit stderr: Input #0, m4v, from 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\swapPrimedgus7m.mp4':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: mpeg4 (Simple Profile), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], 25 fps, 25 tbr, 1200k tbn
+
+[2025-06-15T07:25:54.676Z] Exporting MVs for gus7m completed successfully
+[2025-06-15T07:25:54.676Z] Finished exporting MVs for module gus7m
+[2025-06-15T07:25:54.676Z] Priming main file
+[2025-06-15T07:25:54.676Z] Starting Priming main file with ffgac
+[2025-06-15T07:25:54.782Z] ffgac stderr: [mov,mp4,m4a,3gp,3g2,mj2 @ 000001e965b08940] Referenced QT chapter track not found
+
+[2025-06-15T07:25:54.826Z] ffgac stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\rendFile.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    creation_time   : 2025-06-15T07:25:30.000000Z
+  Duration: 00:00:28.88, start: 0.000000, bitrate: 
+[2025-06-15T07:25:54.826Z] ffgac stderr: 117858 kb/s
+  Stream #0:0[0x1](eng): Video: prores (Standard) (apcn / 0x6E637061), yuv422p10le(bt709, progressive), 1920x1080, 116032 kb/s, SAR 1:1 DAR 16:9, 25 fps, 25 tbr, 25 tbn (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:30.000000Z
+        handler_name    : Apple Video Media Handler
+        vendor_id       : appl
+        encoder         : Apple ProRes 422
+        timecode        : 00:00:00:00
+  Stream #0:1[0x2](eng): Audio: pcm_s16le (sowt / 0x74776F73), 48000 Hz, stereo, s16, 1536 kb/s (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:30.000000Z
+        handler_name    : Apple Sound Media Handler
+        vendor_id       :     
+        timecode        : 00:00:00:00
+  Stream #0:2[0x3](eng): Data: none (tmcd / 0x64636D74), 0 kb/s (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:30.000000Z
+        handler_name    : Time Code Media Handler
+        timecode        : 00:00:00:00
+
+[2025-06-15T07:25:54.831Z] ffgac stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (prores (native) -> mpeg4 (native))
+
+[2025-06-15T07:25:54.831Z] ffgac stderr: Press [q] to stop, [?] for help
+
+[2025-06-15T07:25:54.898Z] ffgac stderr: Output #0, rawvideo, to 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\primedFile.mp4':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands:
+[2025-06-15T07:25:54.898Z] ffgac stderr:  qt  
+    encoder         : Lavf61.1.100
+  Stream #0:0(eng): Video: mpeg4, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 25 fps, 25 tbn (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:30.000000Z
+        handler_name    : Apple Video Media Handler
+        vendor_id       : appl
+        timecode        : 00:00:00:00
+        encoder         : Lavc61.3.100 mpeg4
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+
+[2025-06-15T07:25:55.349Z] ffgac stderr: frame=   72 fps=0.0 q=2.0 size=    4864KiB time=00:00:02.88 bitrate=13835.4kbits/s speed=5.56x    
+[2025-06-15T07:25:55.874Z] ffgac stderr: frame=  159 fps=152 q=2.0 size=   15616KiB time=00:00:06.36 bitrate=20114.2kbits/s speed= 6.1x    
+[2025-06-15T07:25:56.381Z] ffgac stderr: frame=  245 fps=158 q=2.0 size=   28928KiB time=00:00:09.80 bitrate=24181.4kbits/s speed=6.33x    
+[2025-06-15T07:25:56.906Z] ffgac stderr: frame=  334 fps=161 q=2.0 size=   44800KiB time=00:00:13.36 bitrate=27470.2kbits/s speed=6.44x    
+[2025-06-15T07:25:57.410Z] ffgac stderr: frame=  422 fps=164 q=2.0 size=   56320KiB time=00:00:16.88 bitrate=27332.5kbits/s speed=6.55x    
+[2025-06-15T07:25:57.935Z] ffgac stderr: frame=  517 fps=167 q=2.0 size=   68352KiB time=00:00:20.68 bitrate=27076.4kbits/s speed=6.67x    
+[2025-06-15T07:25:58.439Z] ffgac stderr: frame=  607 fps=168 q=2.0 size=   81920KiB time=00:00:24.28 bitrate=27639.6kbits/s speed=6.73x    
+[2025-06-15T07:25:58.959Z] ffgac stderr: frame=  696 fps=169 q=2.0 size=   95744KiB time=00:00:27.84 bitrate=28172.9kbits/s speed=6.75x    
+[2025-06-15T07:25:59.045Z] ffgac stderr: [out#0/rawvideo @ 000001e967513480] video:98100KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000000%
+frame=  722 fps=171 q=2.0 Lsize=   98100KiB time=00:00:28.88 bitrate=27826.8kbits/s speed=6.85x    
+
+[2025-06-15T07:25:59.073Z] Priming main file completed successfully
+[2025-06-15T07:25:59.073Z] Primed main file to C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\primedFile.mp4
+[2025-06-15T07:25:59.073Z] No remove frame modules found, skipping RF splitting
+[2025-06-15T07:25:59.073Z] No hold frames detected, skipping HF processing
+[2025-06-15T07:25:59.073Z] Generating Glitch Doc
+[2025-06-15T07:25:59.074Z] Copying Glitch Doc from C:\Program Files (x86)\Common Files\Adobe\CEP\extensions\com.aescripts.datamosh2\bin\ffmpeg\glitchDocTemp.js to C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\glitchDoc.js
+[2025-06-15T07:25:59.074Z] Collecting MV data for 1 swap modules
+[2025-06-15T07:25:59.171Z] Creating mosh instructions
+[2025-06-15T07:25:59.171Z] Writing Glitch Doc
+[2025-06-15T07:25:59.399Z] Finished writing Glitch Doc
+[2025-06-15T07:25:59.400Z] Glitch Doc generated successfully
+[2025-06-15T07:25:59.400Z] Moshing Temp
+[2025-06-15T07:25:59.400Z] Starting Moshing temp with ffedit
+[2025-06-15T07:26:00.913Z] ffedit stderr: [m4v @ 0000022ec7f6b880] Format m4v detected only with low score of 5, misdetection possible!
+Input #0, m4v, from 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\primedFile.mp4':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: mpeg4 (Simple Profile), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], 25 fps, 25 tbr, 1200k tbn
+frame=   21 fps=0.0 size=N/A time=00:00:00.80  speed= 1.5x    
+[2025-06-15T07:26:01.417Z] ffedit stderr: frame=   32 fps= 31 size=N/A time=00:00:01.24  speed= 1.2x    
+[2025-06-15T07:26:01.928Z] ffedit stderr: frame=   43 fps= 28 size=N/A time=00:00:01.68  speed=1.09x    
+[2025-06-15T07:26:02.454Z] ffedit stderr: frame=   55 fps= 27 size=N/A time=00:00:02.16  speed=1.04x    
+[2025-06-15T07:26:02.968Z] ffedit stderr: frame=   67 fps= 26 size=N/A time=00:00:02.64  speed=1.02x    
+[2025-06-15T07:26:03.468Z] ffedit stderr: frame=   79 fps= 26 size=N/A time=00:00:03.12  speed=1.01x    
+[2025-06-15T07:26:04.013Z] ffedit stderr: frame=   92 fps= 25 size=N/A time=00:00:03.64  speed=   1x    
+[2025-06-15T07:26:04.515Z] ffedit stderr: frame=  246 fps= 59 size=N/A time=00:00:09.80  speed=2.37x    
+[2025-06-15T07:26:05.017Z] ffedit stderr: frame=  415 fps= 90 size=N/A time=00:00:16.56  speed=3.57x    
+[2025-06-15T07:26:05.518Z] ffedit stderr: frame=  600 fps=117 size=N/A time=00:00:23.96  speed=4.66x    
+[2025-06-15T07:26:05.867Z] ffedit stderr: frame=  722 fps=132 Lsize=N/A time=00:00:28.84  speed=5.26x    
+
+[2025-06-15T07:26:05.983Z] Moshing temp completed successfully
+[2025-06-15T07:26:05.983Z] Moshed Temp
+[2025-06-15T07:26:05.983Z] Starting Baking mosh with ffmpeg
+[2025-06-15T07:26:23.954Z] Baking mosh completed successfully
+[2025-06-15T07:26:33.538Z] Moshing complete
+[2025-06-15T07:26:33.922Z] Operation cancelled
+[2025-06-15T07:37:26.245Z] Starting setup
+[2025-06-15T07:37:26.476Z] Setting up paths
+[2025-06-15T07:37:26.476Z] Project Path: C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh
+[2025-06-15T07:37:26.476Z] Deleting previous mosh
+[2025-06-15T07:37:26.494Z] Got comp data
+[2025-06-15T07:37:26.535Z] Got marker times
+[2025-06-15T07:37:26.535Z] Setup completed
+[2025-06-15T07:37:26.535Z] Rendering temp
+[2025-06-15T07:37:26.535Z] Rendering to C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\rendFile.mov
+[2025-06-15T07:37:40.908Z] Rendered to C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\rendFile.mov
+[2025-06-15T07:37:40.958Z] Rendering extra temps
+[2025-06-15T07:37:40.958Z] Rendering swap temp for "gus7m", timeIn: 3.08, duration: 1.64
+[2025-06-15T07:37:42.884Z] Rendered swap temp for gus7m to C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\swapTemp-gus7m.mov
+[2025-06-15T07:37:42.935Z] Priming swap file for module gus7m
+[2025-06-15T07:37:42.936Z] Starting Priming swap file with ffgac
+[2025-06-15T07:37:43.109Z] ffgac stderr: [mov,mp4,m4a,3gp,3g2,mj2 @ 000001d44c438940] Referenced QT chapter track not found
+
+[2025-06-15T07:37:43.157Z] ffgac stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\swapTemp-gus7m.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    creation_time   : 2025-06-15T07:25:48.000000Z
+[2025-06-15T07:37:43.157Z] ffgac stderr: 
+  Duration: 00:00:01.64, start: 0.000000, bitrate: 126548 kb/s
+  Stream #0:0[0x1](eng): Video: prores (Standard) (apcn / 0x6E637061), yuv422p10le(bt709, progressive), 1920x1080, 119897 kb/s, SAR 1:1 DAR 16:9, 25 fps, 25 tbr, 25 tbn (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:48.000000Z
+        handler_name    : Apple Video Media Handler
+        vendor_id       : appl
+        encoder         : Apple ProRes 422
+        timecode        : 00:00:03:02
+  Stream #0:1[0x2](eng): Audio: pcm_s16le (sowt / 0x74776F73), 48000 Hz, stereo, s16, 1536 kb/s (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:48.000000Z
+        handler_name    : Apple Sound Media Handler
+        vendor_id       :     
+        timecode        : 00:00:03:02
+  Stream #0:2[0x3](eng): Data: none (tmcd / 0x64636D74), 0 kb/s (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:48.000000Z
+        handler_name    : Time Code Media Handler
+        timecode        : 00:00:03:02
+
+[2025-06-15T07:37:43.159Z] ffgac stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (prores (native) -> mpeg4 (native))
+
+[2025-06-15T07:37:43.159Z] ffgac stderr: Press [q] to stop, [?] for help
+
+[2025-06-15T07:37:43.214Z] ffgac stderr: Output #0, rawvideo, to 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\swapPrimedgus7m.mp4':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    encoder         : Lavf61.1.100
+  Stream #0:0(eng): Video: mpeg4, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 25 fps, 25 tbn (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:48.000000Z
+        handler_name    : Apple Video Media Handler
+        vendor_id       : appl
+        timecode        : 00:00:03:02
+        encoder         : Lavc61.3.100 mpeg4
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+
+[2025-06-15T07:37:43.426Z] ffgac stderr: [out#0/rawvideo @ 000001d44ddcacc0] video:5936KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000000%
+frame=   41 fps=0.0 q=0.0 Lsize=    5936KiB time=00:00:01.64 bitrate=29651.1kbits/s speed=6.14x    
+
+[2025-06-15T07:37:43.455Z] Priming swap file completed successfully
+[2025-06-15T07:37:43.455Z] Primed swap file to C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\swapPrimedgus7m.mp4
+[2025-06-15T07:37:43.455Z] Exporting MVs for module gus7m
+[2025-06-15T07:37:43.455Z] Starting Exporting MVs for gus7m with ffedit
+[2025-06-15T07:37:43.704Z] ffedit stderr: Input #0, m4v, from 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\swapPrimedgus7m.mp4':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: mpeg4 (Simple Profile), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], 25 fps, 25 tbr, 1200k tbn
+
+[2025-06-15T07:37:43.707Z] Exporting MVs for gus7m completed successfully
+[2025-06-15T07:37:43.707Z] Finished exporting MVs for module gus7m
+[2025-06-15T07:37:43.707Z] Priming main file
+[2025-06-15T07:37:43.707Z] Starting Priming main file with ffgac
+[2025-06-15T07:37:43.812Z] ffgac stderr: [mov,mp4,m4a,3gp,3g2,mj2 @ 000002573b1d8940] Referenced QT chapter track not found
+
+[2025-06-15T07:37:43.853Z] ffgac stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\rendFile.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    creation_time   : 2025-06-15T07:25:30.000000Z
+  Duration: 00:00:28.88, start: 0.000000, bitrate: 118875 kb/s
+  Stream #0:0[0x1](eng): Video: prores (Standard) (apcn / 0x6E637061), yuv422p10le(bt709, progressive), 1920x1080, 117049 kb/s, SAR 1:1 DAR 16:9, 25 fps, 25 tbr, 25 tbn (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:30.000000Z
+        handler_name    : Apple Video Media Handler
+        vendor_id       : appl
+        encoder         : Apple ProRes 422
+        timecode        : 00:00:00:00
+  Stream #0:1[0x2](eng): Audio: pcm_s16le (sowt / 0x74776F73), 48000 Hz, stereo, s16, 1536 kb/s (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:30.000000Z
+        handler_name    : Apple Sound Media Handler
+        vendor_id       :     
+        timecode        : 00:00:00:00
+  Stream #0:2[0x3](eng): Data: none (tmcd / 0x64636D74), 0 kb/s (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:30.000000Z
+        handler_name    : Time Code Media Handler
+        timecode        : 00:00:00:00
+
+[2025-06-15T07:37:43.854Z] ffgac stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (prores (native) -> mpeg4 (native))
+
+[2025-06-15T07:37:43.854Z] ffgac stderr: Press [q] to stop, [?] for help
+
+[2025-06-15T07:37:43.910Z] ffgac stderr: Output #0, rawvideo, to 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\primedFile.mp4':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    encoder         : Lavf61.1.100
+  Stream #0:0(eng): Video: mpeg4, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 25 fps, 25 tbn (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:30.000000Z
+        handler_name    : Apple Video Media Handler
+        vendor_id       : appl
+        timecode        : 00:00:00:00
+        encoder         : Lavc61.3.100 mpeg4
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+
+[2025-06-15T07:37:44.366Z] ffgac stderr: frame=   87 fps=0.0 q=2.0 size=    5120KiB time=00:00:03.48 bitrate=12052.6kbits/s speed= 6.8x    
+[2025-06-15T07:37:44.891Z] ffgac stderr: frame=  188 fps=181 q=2.0 size=   17920KiB time=00:00:07.52 bitrate=19521.4kbits/s speed=7.26x    
+[2025-06-15T07:37:45.397Z] ffgac stderr: frame=  285 fps=185 q=2.0 size=   35328KiB time=00:00:11.40 bitrate=25386.6kbits/s speed=7.39x    
+[2025-06-15T07:37:45.919Z] ffgac stderr: frame=  389 fps=188 q=2.0 size=   50688KiB time=00:00:15.56 bitrate=26686.1kbits/s speed=7.54x    
+[2025-06-15T07:37:46.436Z] ffgac stderr: frame=  494 fps=191 q=2.0 size=   64512KiB time=00:00:19.76 bitrate=26745.1kbits/s speed=7.65x    
+[2025-06-15T07:37:46.940Z] ffgac stderr: frame=  592 fps=192 q=2.0 size=   79360KiB time=00:00:23.68 bitrate=27454.3kbits/s speed=7.67x    
+[2025-06-15T07:37:47.460Z] ffgac stderr: frame=  699 fps=194 q=2.0 size=   96000KiB time=00:00:27.96 bitrate=28127.0kbits/s speed=7.75x    
+[2025-06-15T07:37:47.513Z] ffgac stderr: [out#0/rawvideo @ 000002573b1dd4c0] video:96851KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000000%
+frame=  722 fps=197 q=2.0 Lsize=   96851KiB time=00:00:28.88 bitrate=27472.3kbits/s speed=7.89x    
+
+[2025-06-15T07:37:47.539Z] Priming main file completed successfully
+[2025-06-15T07:37:47.539Z] Primed main file to C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\primedFile.mp4
+[2025-06-15T07:37:47.539Z] No remove frame modules found, skipping RF splitting
+[2025-06-15T07:37:47.540Z] No hold frames detected, skipping HF processing
+[2025-06-15T07:37:47.540Z] Generating Glitch Doc
+[2025-06-15T07:37:47.540Z] Copying Glitch Doc from C:\Program Files (x86)\Common Files\Adobe\CEP\extensions\com.aescripts.datamosh2\bin\ffmpeg\glitchDocTemp.js to C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\glitchDoc.js
+[2025-06-15T07:37:47.540Z] Collecting MV data for 1 swap modules
+[2025-06-15T07:37:47.593Z] Creating mosh instructions
+[2025-06-15T07:37:47.593Z] Writing Glitch Doc
+[2025-06-15T07:37:47.642Z] Finished writing Glitch Doc
+[2025-06-15T07:37:47.643Z] Glitch Doc generated successfully
+[2025-06-15T07:37:47.643Z] Moshing Temp
+[2025-06-15T07:37:47.643Z] Starting Moshing temp with ffedit
+[2025-06-15T07:37:49.173Z] ffedit stderr: Input #0, m4v, from 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\primedFile.mp4':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: mpeg4 (Simple Profile), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], 25 fps, 25 tbr, 1200k tbn
+frame=   15 fps=0.0 size=N/A time=00:00:00.56  speed= 0.9x    
+[2025-06-15T07:37:49.786Z] ffedit stderr: frame=   20 fps= 16 size=N/A time=00:00:00.76  speed=0.615x    
+[2025-06-15T07:37:50.404Z] ffedit stderr: frame=   25 fps= 13 size=N/A time=00:00:00.96  speed=0.518x    
+[2025-06-15T07:37:51.035Z] ffedit stderr: frame=   32 fps= 13 size=N/A time=00:00:01.24  speed=0.499x    
+[2025-06-15T07:37:51.579Z] ffedit stderr: frame=   36 fps= 12 size=N/A time=00:00:01.40  speed=0.462x    
+[2025-06-15T07:37:52.108Z] ffedit stderr: frame=   41 fps= 12 size=N/A time=00:00:01.60  speed=0.45x    
+[2025-06-15T07:37:52.610Z] ffedit stderr: frame=   46 fps= 11 size=N/A time=00:00:01.80  speed=0.443x    
+[2025-06-15T07:37:53.113Z] ffedit stderr: frame=   50 fps= 11 size=N/A time=00:00:01.96  speed=0.43x    
+[2025-06-15T07:37:53.733Z] ffedit stderr: frame=   57 fps= 11 size=N/A time=00:00:02.24  speed=0.432x    
+[2025-06-15T07:37:54.346Z] ffedit stderr: frame=   62 fps= 11 size=N/A time=00:00:02.44  speed=0.421x    
+[2025-06-15T07:37:54.957Z] ffedit stderr: frame=   67 fps= 10 size=N/A time=00:00:02.64  speed=0.412x    
+[2025-06-15T07:37:55.459Z] ffedit stderr: frame=   72 fps= 10 size=N/A time=00:00:02.84  speed=0.411x    
+[2025-06-15T07:37:55.982Z] ffedit stderr: frame=   85 fps= 11 size=N/A time=00:00:03.36  speed=0.452x    
+[2025-06-15T07:37:56.513Z] ffedit stderr: frame=   97 fps= 12 size=N/A time=00:00:03.84  speed=0.482x    
+[2025-06-15T07:37:57.014Z] ffedit stderr: frame=  283 fps= 33 size=N/A time=00:00:11.28  speed=1.33x    
+[2025-06-15T07:37:57.514Z] ffedit stderr: frame=  468 fps= 52 size=N/A time=00:00:18.68  speed=2.08x    
+[2025-06-15T07:37:58.016Z] ffedit stderr: frame=  654 fps= 69 size=N/A time=00:00:26.12  speed=2.76x    
+[2025-06-15T07:37:58.188Z] ffedit stderr: frame=  722 fps= 75 Lsize=N/A time=00:00:28.84  speed=2.99x    
+
+[2025-06-15T07:37:58.301Z] Moshing temp completed successfully
+[2025-06-15T07:37:58.301Z] Moshed Temp
+[2025-06-15T07:37:58.301Z] Starting Baking mosh with ffmpeg
+[2025-06-15T07:38:10.208Z] Baking mosh completed successfully
+[2025-06-15T07:38:11.020Z] Moshing complete
+[2025-06-15T07:38:11.031Z] Operation cancelled
+[2025-06-15T08:33:44.427Z] Starting setup
+[2025-06-15T08:33:44.628Z] Setting up paths
+[2025-06-15T08:33:44.628Z] Project Path: C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh
+[2025-06-15T08:33:44.628Z] Deleting previous mosh
+[2025-06-15T08:33:44.644Z] Got comp data
+[2025-06-15T08:33:44.687Z] Got marker times
+[2025-06-15T08:33:44.704Z] Setup completed
+[2025-06-15T08:33:44.704Z] Rendering temp
+[2025-06-15T08:33:44.704Z] Rendering to C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\rendFile.mov
+[2025-06-15T08:33:58.897Z] Rendered to C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\rendFile.mov
+[2025-06-15T08:33:58.948Z] Rendering extra temps
+[2025-06-15T08:33:58.948Z] Rendering swap temp for "gus7m", timeIn: 3.28, duration: 1.64
+[2025-06-15T08:34:00.835Z] Rendered swap temp for gus7m to C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\swapTemp-gus7m.mov
+[2025-06-15T08:34:00.892Z] Priming swap file for module gus7m
+[2025-06-15T08:34:00.892Z] Starting Priming swap file with ffgac
+[2025-06-15T08:34:01.048Z] ffgac stderr: [mov,mp4,m4a,3gp,3g2,mj2 @ 000001e6cc348940] Referenced QT chapter track not found
+
+[2025-06-15T08:34:01.088Z] ffgac stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\swapTemp-gus7m.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    creation_time   : 
+[2025-06-15T08:34:01.089Z] ffgac stderr: 2025-06-15T07:25:48.000000Z
+  Duration: 00:00:01.64, start: 0.000000, bitrate: 127265 kb/s
+  Stream #0:0[0x1](eng): Video: prores (Standard) (apcn / 0x6E637061), yuv422p10le(bt709, progressive), 1920x1080, 120614 kb/s, SAR 1:1 DAR 16:9, 25 fps, 25 tbr, 25 tbn (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:48.000000Z
+        handler_name    : Apple Video Media Handler
+        vendor_id       : appl
+        encoder         : Apple ProRes 422
+        timecode        : 00:00:03:07
+  Stream #0:1[0x2](eng): Audio: pcm_s16le (sowt / 0x74776F73), 48000 Hz, stereo, s16, 1536 kb/s (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:48.000000Z
+        handler_name    : Apple Sound Media Handler
+        vendor_id       :     
+        timecode        : 00:00:03:07
+  Stream #0:2[0x3](eng): Data: none (tmcd / 0x64636D74), 0 kb/s (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:48.000000Z
+        handler_name    : Time Code Media Handler
+        timecode        : 00:00:03:07
+
+[2025-06-15T08:34:01.090Z] ffgac stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (prores (native) -> mpeg4 (native))
+
+[2025-06-15T08:34:01.090Z] ffgac stderr: Press [q] to stop, [?] for help
+
+[2025-06-15T08:34:01.146Z] ffgac stderr: Output #0, rawvideo, to 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\swapPrimedgus7m.mp4':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    encoder         : Lavf61.1.100
+  Stream #0:0
+[2025-06-15T08:34:01.146Z] ffgac stderr: (eng): Video: mpeg4, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 25 fps, 25 tbn (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:48.000000Z
+        handler_name    : Apple Video Media Handler
+        vendor_id       : appl
+        timecode        : 00:00:03:07
+        encoder         : Lavc61.3.100 mpeg4
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+
+[2025-06-15T08:34:01.359Z] ffgac stderr: [out#0/rawvideo @ 000001e6cddc24c0] video:6025KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000000%
+frame=   41 fps=0.0 q=0.0 Lsize=    6025KiB time=00:00:01.64 bitrate=30095.6kbits/s speed=6.11x    
+
+[2025-06-15T08:34:01.385Z] Priming swap file completed successfully
+[2025-06-15T08:34:01.386Z] Primed swap file to C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\swapPrimedgus7m.mp4
+[2025-06-15T08:34:01.386Z] Exporting MVs for module gus7m
+[2025-06-15T08:34:01.386Z] Starting Exporting MVs for gus7m with ffedit
+[2025-06-15T08:34:01.651Z] ffedit stderr: Input #0, m4v, from 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\swapPrimedgus7m.mp4':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: mpeg4 (Simple Profile), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], 25 fps, 25 tbr, 1200k tbn
+
+[2025-06-15T08:34:01.654Z] Exporting MVs for gus7m completed successfully
+[2025-06-15T08:34:01.654Z] Finished exporting MVs for module gus7m
+[2025-06-15T08:34:01.654Z] Priming main file
+[2025-06-15T08:34:01.654Z] Starting Priming main file with ffgac
+[2025-06-15T08:34:01.759Z] ffgac stderr: [mov,mp4,m4a,3gp,3g2,mj2 @ 000001ba46ab8940] Referenced QT chapter track not found
+
+[2025-06-15T08:34:01.798Z] ffgac stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\rendFile.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    creation_time   : 2025-06-15T07:25:30.000000Z
+  Duration: 00:00:28.88, start: 0.000000, bitrate: 118925 kb/s
+
+[2025-06-15T08:34:01.798Z] ffgac stderr:   Stream #0:0[0x1](eng): Video: prores (Standard) (apcn / 0x6E637061), yuv422p10le(bt709, progressive), 1920x1080, 117099 kb/s, SAR 1:1 DAR 16:9, 25 fps, 25 tbr, 25 tbn (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:30.000000Z
+        handler_name    : Apple Video Media Handler
+        vendor_id       : appl
+        encoder         : Apple ProRes 422
+        timecode        : 00:00:00:00
+  Stream #0:1[0x2](eng): Audio: pcm_s16le (sowt / 0x74776F73), 48000 Hz, stereo, s16, 1536 kb/s (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:30.000000Z
+        handler_name    : Apple Sound Media Handler
+        vendor_id       :     
+        timecode        : 00:00:00:00
+  Stream #0:2[0x3](eng): Data: none (tmcd / 0x64636D74), 0 kb/s (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:30.000000Z
+        handler_name    : Time Code Media Handler
+        timecode        : 00:00:00:00
+
+[2025-06-15T08:34:01.799Z] ffgac stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (prores (native) -> mpeg4 (native))
+
+[2025-06-15T08:34:01.799Z] ffgac stderr: Press [q] to stop, [?] for help
+
+[2025-06-15T08:34:01.853Z] ffgac stderr: Output #0, rawvideo, to 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\primedFile.mp4':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    encoder         : Lavf61.1.100
+[2025-06-15T08:34:01.853Z] ffgac stderr: 
+  Stream #0:0(eng): Video: mpeg4, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 25 fps, 25 tbn (default)
+      Metadata:
+        creation_time   : 2025-06-15T07:25:30.000000Z
+        handler_name    : Apple Video Media Handler
+        vendor_id       : appl
+        timecode        : 00:00:00:00
+        encoder         : Lavc61.3.100 mpeg4
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+
+[2025-06-15T08:34:02.324Z] ffgac stderr: frame=   87 fps=0.0 q=2.0 size=    5120KiB time=00:00:03.48 bitrate=12052.6kbits/s speed=6.63x    
+[2025-06-15T08:34:02.325Z] ffgac stderr: 
+[2025-06-15T08:34:02.840Z] ffgac stderr: frame=  185 fps=178 q=2.0 size=   17664KiB time=00:00:07.40 bitrate=19554.5kbits/s speed=7.11x    
+[2025-06-15T08:34:03.360Z] ffgac stderr: frame=  284 fps=182 q=2.0 size=   35328KiB time=00:00:11.36 bitrate=25476.0kbits/s speed=7.29x    
+[2025-06-15T08:34:03.876Z] ffgac stderr: frame=  384 fps=185 q=2.0 size=   50432KiB time=00:00:15.36 bitrate=26897.1kbits/s speed= 7.4x    
+[2025-06-15T08:34:04.391Z] ffgac stderr: frame=  485 fps=187 q=2.0 size=   62976KiB time=00:00:19.40 bitrate=26592.8kbits/s speed=7.49x    
+[2025-06-15T08:34:04.907Z] ffgac stderr: frame=  585 fps=188 q=2.0 size=   78592KiB time=00:00:23.40 bitrate=27513.9kbits/s speed=7.53x    
+[2025-06-15T08:34:05.415Z] ffgac stderr: frame=  659 fps=182 q=2.0 size=   89600KiB time=00:00:26.36 bitrate=27845.3kbits/s speed=7.29x    
+[2025-06-15T08:34:05.724Z] ffgac stderr: [out#0/rawvideo @ 000001ba46abd4c0] video:97073KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000000%
+frame=  722 fps=184 q=2.0 Lsize=   97073KiB time=00:00:28.88 bitrate=27535.3kbits/s speed=7.36x    
+
+[2025-06-15T08:34:05.754Z] Priming main file completed successfully
+[2025-06-15T08:34:05.754Z] Primed main file to C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\primedFile.mp4
+[2025-06-15T08:34:05.755Z] Starting RF splitting 0 with ffmpeg
+[2025-06-15T08:34:06.004Z] ffmpeg stderr: Input #0, m4v, from 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\primedFile.mp4':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: mpeg4 (Simple Profile), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], 
+[2025-06-15T08:34:06.005Z] ffmpeg stderr: 25 fps, 25 tbr, 1200k tbn
+
+[2025-06-15T08:34:06.005Z] ffmpeg stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+
+[2025-06-15T08:34:06.005Z] ffmpeg stderr: Output #0, mp4, to 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\rfSplitFile0.mp4':
+  Metadata:
+    encoder         : Lavf61.1.100
+
+[2025-06-15T08:34:06.005Z] ffmpeg stderr:   Stream #0:0: Video: mpeg4 (Simple Profile) (mp4v / 0x7634706D), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 25 tbr, 1200k tbn
+Press [q] to stop, [?] for help
+
+[2025-06-15T08:34:06.006Z] ffmpeg stderr: [out#0/mp4 @ 0000024223effd40] video:0KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+[out#0/mp4 @ 0000024223effd40] Output file is empty, nothing was encoded
+size=       0KiB time=00:00:00.04 bitrate=  51.4kbits/s speed= 104x    
+
+[2025-06-15T08:34:06.009Z] RF splitting 0 completed successfully
+[2025-06-15T08:34:06.009Z] Finished RF splitting 0: startTime=0, duration=0
+[2025-06-15T08:34:06.009Z] Starting RF splitting 1 with ffmpeg
+[2025-06-15T08:34:06.259Z] ffmpeg stderr: Input #0, m4v, from 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\primedFile.mp4':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: mpeg4 (Simple Profile), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], 25 fps, 25 tbr, 1200k tbn
+
+[2025-06-15T08:34:06.259Z] ffmpeg stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+
+[2025-06-15T08:34:06.260Z] ffmpeg stderr: Output #0, mp4, to 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\rfSplitFile1.mp4':
+  Metadata:
+    encoder         : Lavf61.1.100
+
+[2025-06-15T08:34:06.260Z] ffmpeg stderr:   Stream #0:0: Video: mpeg4 (Simple Profile) (mp4v / 0x7634706D), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 25 tbr, 1200k tbn
+
+[2025-06-15T08:34:06.260Z] ffmpeg stderr: Press [q] to stop, [?] for help
+
+[2025-06-15T08:34:06.383Z] ffmpeg stderr: [out#0/mp4 @ 00000210647dfd40] video:96921KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.005065%
+size=   96926KiB time=00:00:28.88 bitrate=27493.6kbits/s speed= 235x    
+
+[2025-06-15T08:34:06.386Z] RF splitting 1 completed successfully
+[2025-06-15T08:34:06.386Z] Finished RF splitting 1: startTime=0.08, duration=28.8
+[2025-06-15T08:34:06.388Z] Starting RF concatenating with ffmpeg
+[2025-06-15T08:34:06.620Z] ffmpeg stderr: Input #0, concat, from 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\rfSplitList.txt':
+  Duration: N/A, bitrate: N/A
+
+[2025-06-15T08:34:06.620Z] ffmpeg stderr: Output #0, mp4, to 'C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\rfConcatFile.mp4':
+[out#0/mp4 @ 0000018545ecf340] Output file does not contain any stream
+Error opening output file C:\Users\EVPez\Documents\mayaREAL!!!\scenes\multi-major-year12\inder\projec\mosh\Helpers\rfConcatFile.mp4.
+Error opening output files: Invalid argument
+
+[2025-06-15T08:34:06.623Z] Mosh Error in state RF_CONCATENATING_TEMPS: Error in RF concatenating --- Additional Details: {"state":"ERROR","name":"MoshError"}
+[2025-06-15T08:34:06.623Z] Error: Error in RF concatenating
